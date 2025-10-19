@@ -91,3 +91,13 @@
   cost: 5200
   category: cargoproduct-category-name-armory
   group: market
+
+- type: cargoProduct
+  id: SecurityBows
+  icon:
+    sprite: Objects/Weapons/Guns/Bow/bow.rsi
+    state: wielded
+  product: CrateSecurityBows
+  cost: 900
+  category: cargoproduct-category-name-armory
+  group: market

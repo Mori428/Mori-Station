@@ -114,3 +114,16 @@
       amount: 2
     - id: TearGasGrenade
       amount: 4
+
+- type: entity
+  id: CrateSecurityBows
+  parent: CrateGenericSteel
+  name: bow crate
+  description: Contains 8 bows and full quivers.
+  components:
+  - type: StorageFill
+    contents:
+    - id: ClothingBeltQuiverFilled
+      amount: 8
+    - id: BowImprovised
+      amount: 8
